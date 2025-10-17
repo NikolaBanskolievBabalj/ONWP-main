@@ -1,0 +1,264 @@
+body{
+    background-image: url(wallpaperflare.com_wallpaper\(1\).jpg);
+    background-repeat: repeat;
+}
+
+.prasanje1-holder{
+    border: solid black;
+    border-radius: 1em;
+    background-color: rgb(194, 187, 187);
+    box-shadow: 10px 10px 10px lightblue;
+    margin-bottom: 35px;
+}
+
+.prasanje1-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.odgovori-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.prasanje1-labela1, .prasanje1-labela2{
+    color: blue;
+    font-size: 1.25em;
+    font-weight: 800;
+    border: solid blue;
+    border-radius: 0.5em;
+    padding: 5px 5px 5px 5px;
+    background-color: azure;
+}
+
+.prasanje1-labela3, .prasanje1-labela4{
+    color: rgb(0, 206, 17);
+    font-size: 1.25em;
+    font-weight: 800;
+    border: solid rgb(0, 206, 17);
+    border-radius: 0.5em;
+    padding: 5px 5px 5px 5px;
+    background-color: azure;
+}
+
+.prasanje1-labela1:hover{
+    background-color: rgb(0, 140, 255);
+}
+
+.prasanje1-labela2:hover{
+    background-color:  rgb(0, 140, 255);
+}
+
+.prasanje1-labela3:hover{
+    background-color: rgb(0, 255, 179);
+}
+.prasanje1-labela4:hover{
+    background-color:  rgb(0, 255, 179);
+}
+
+.prasanje2-holder{
+    border: solid black;
+    border-radius: 1em;
+    background-color: rgb(194, 187, 187);
+    box-shadow: 10px 10px 10px rgb(150, 22, 150);
+    margin-bottom: 35px;
+}
+
+.prasanje2-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.prasanje2-labela1, .prasanje2-labela2{
+    color: rgb(184, 19, 101);
+    font-size: 1.25em;
+    font-weight: 800;
+    border: solid rgb(184, 19, 101);
+    border-radius: 0.5em;
+    padding: 5px 5px 5px 5px;
+    background-color: azure;
+}
+
+.prasanje2-labela3, .prasanje2-labela4{
+    color: rgb(160, 51, 51);
+    font-size: 1.25em;
+    font-weight: 800;
+    border: solid rgb(160, 51, 51);
+    border-radius: 0.5em;
+    padding: 5px 5px 5px 5px;
+    background-color: azure;
+}
+
+.odgovori2-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.prasanje2-labela1:hover{
+    background-color: rgb(140, 0, 255);
+}
+
+.prasanje2-labela2:hover{
+    background-color:  rgb(140, 0, 255)
+}
+
+.prasanje2-labela3:hover{
+    background-color: rgb(150, 22, 150);
+}
+.prasanje2-labela4:hover{
+    background-color:  rgb(150, 22, 150);
+}
+
+.prasanje3-holder{
+    border: solid black;
+    border-radius: 1em;
+    background-color: rgb(199, 171, 171);
+    box-shadow: 10px 10px 10px rgb(218, 255, 116);
+    margin-bottom: 35px;
+}
+
+.prasanje3-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.prasanje3-labela1, .prasanje3-labela2{
+    color: rgb(0, 255, 242);
+    font-size: 1.25em;
+    font-weight: 800;
+    border: solid rgb(36, 123, 204);
+    border-radius: 0.5em;
+    padding: 5px 5px 5px 5px;
+    background-color: azure;
+}
+
+.prasanje3-labela3, .prasanje3-labela4{
+    color: rgb(236, 144, 4);
+    font-size: 1.25em;
+    font-weight: 800;
+    border: solid rgb(235, 182, 10);
+    border-radius: 0.5em;
+    padding: 5px 5px 5px 5px;
+    background-color: azure;
+}
+
+.odgovori3-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.prasanje3-labela1:hover{
+    background-color: rgb(66, 218, 73);
+}
+
+.prasanje3-labela2:hover{
+    background-color:  rgb(66, 218, 73);
+}
+
+.prasanje3-labela3:hover{
+    background-color: rgb(204, 255, 122);
+}
+.prasanje3-labela4:hover{
+    background-color:   rgb(204, 255, 122);;
+}
+
+.prasanje4-holder{
+    border: solid black;
+    border-radius: 1em;
+    background-color: rgb(206, 192, 192);
+    box-shadow: 10px 10px 10px rgb(250, 99, 99);
+    margin-bottom: 35px;
+}
+
+.prasanje4-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.prasanje4-labela1, .prasanje4-labela2{
+    color: rgb(104, 84, 121);
+    font-size: 1.25em;
+    font-weight: 800;
+    border: solid rgb(36, 123, 204);
+    border-radius: 0.5em;
+    padding: 5px 5px 5px 5px;
+    background-color: azure;
+}
+
+.prasanje4-labela3, .prasanje4-labela4{
+    color: rgba(40, 61, 155, 0.39);
+    font-size: 1.25em;
+    font-weight: 800;
+    border: solid rgba(40, 61, 155, 0.39);
+    padding: 5px 5px 5px 5px;
+    border-radius: 0.5em;
+    background-color: azure;
+}
+
+.odgovori4-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.prasanje4-labela1:hover{
+    background-color: rgb(144, 241, 229);
+}
+
+.prasanje4-labela2:hover{
+    background-color:  rgb(144, 241, 229);
+}
+
+.prasanje4-labela3:hover{
+    background-color: rgb(149, 235, 199);
+}
+.prasanje4-labela4:hover{
+    background-color:   rgb(149, 235, 199);
+}
+
+.goren-naslov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+img{
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.kopce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kopce1{
+    padding: 10px 10px 10px 10px;
+}
