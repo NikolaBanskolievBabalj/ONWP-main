@@ -1,0 +1,19 @@
+img{
+    width: 350px;
+    height: 200px;
+}
+
+li{
+    list-style: none;
+}
+
+div{
+    display: inline-block;
+    position: relative;
+}
+
+.cover{
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
