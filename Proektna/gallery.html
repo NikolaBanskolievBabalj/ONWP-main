@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <script defer src="gallery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <ul class="list_header">
+            <li><a href="index.html" class="link1">HOME</a></li>
+            <li><a href="gallery.html" class="link1">GALLERY</a></li>
+            <li><a href="blog.html"class="link3">BLOG</a></li>
+            <li><a href="#"class="link1">QUESTIONS</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="slideshow_container">
+            <img src="sliki/9db064b010e3780023ce12f2b143847c-AdobeStock_141426708.jpeg" alt="Cities" id="galleryImg">
+        </div>
+
+        <div class="photos_by_tourists">
+                <button id="prevBtn" class="btn1">⟨</button>
+                <img src="sliki2/01thing-to-do-berlin-top-bmwg-videoSixteenByNine3000.jpg" alt="OvojAlt " id="Imgs">
+                <button id="nextBtn" class="btn2">⟩</button>
+            </div>
+
+            <div class="like_section">
+                <div>
+                    <h3 id="imgTitle">Tourist photo</h3>
+                    <p id="imgDesc"> Description</p>
+                </div>
+                <div class="likes">
+                    <button id="likeBtn">❤️ Like</button>
+                    <span id="likeCount">0</span>
+                </div>
+            </div>
+
+            <div class="comment_section">
+                <h4>Comments</h4>
+                <div id="commentList"></div>
+
+                <div class="comment_input">
+                    <input type="text" id="commentText" placeholder="Write a comment..." />
+                    <button id="postComment">Post</button>
+                </div>
+            </div>
+
+    </div>
+</body>
+</html>

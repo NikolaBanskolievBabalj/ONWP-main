@@ -1,0 +1,203 @@
+body{
+    margin: 0px ;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F7F7;
+}
+
+.header{
+    background-color: #0A192F;
+    width: 240px;
+    height: 150vh;
+    margin: 0px;
+    position: absolute;
+    padding-top: 70px;
+}
+
+.list_header, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+.list_header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+.list_header li a:hover{
+    color: #00A8E8;
+    border-left: 3px solid #00A8E8;
+    padding-left: 8px;
+}
+
+.slideshow_container{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+}
+
+.slideshow_container img{
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    transition: opacity 0.9s ease-in-out;
+}
+
+.main{
+    margin-left: 240px;
+    padding-top: 80px;
+    background: linear-gradient(135deg, rgba(10,25,47,0.9), rgba(0,168,232,0.3)),
+                url("photo-1467269204594-9661b134dd2b.jpg") center/cover no-repeat;
+    height: 121.5vh;
+}
+
+.photos_by_tourists{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+
+}
+.photos_by_tourists img{
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.btn1{
+    position: absolute;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.45);
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 100%
+}
+
+.btn2{
+    position: absolute;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.45);
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    top: 100%;
+    right: 22%;
+}
+
+.like_section {
+  display: flex;
+  position: absolute;
+  padding: 14px 20px 16px;
+  background: #0A192F;
+  color: #fff;
+  width: 760px;
+  left: 35%;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.like_section h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.like_section p {
+  margin: 3px 0 0;
+  font-size: 12px;
+  opacity: 0.7;
+}
+.likes {
+  gap: 8px;
+}
+
+#likeBtn {
+  background: #00A8E8;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+#likeCount {
+  font-weight: 600;
+}
+
+.comment_section {
+  background: #f7f7f7;
+  color: #0a192f;
+  padding: 15px 20px 25px;
+  border-top: 2px solid #00A8E8;
+  border-radius: 0 0 20px 20px;
+  margin-top: 75px;
+  width: 760px;
+  position: absolute;
+  left: 35%;
+}
+
+.comment_section h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+#commentList {
+  margin-top: 10px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.comment {
+  background: #e9f4fb;
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.comment_input {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.comment_input input {
+  flex: 1;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.comment_input button {
+  background: #00A8E8;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}

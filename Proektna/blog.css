@@ -7,7 +7,7 @@ body{
 .header{
     background-color: #0A192F;
     width: 240px;
-    height: 100vh;
+    height: 151.1vh;
     margin: 0px;
     position: absolute;
     padding-top: 70px;
@@ -51,7 +51,8 @@ body{
     padding: 40px 50px;
     background: linear-gradient(135deg, rgba(10,25,47,0.9), rgba(0,168,232,0.3)),
                 url("photo-1467269204594-9661b134dd2b.jpg") center/cover no-repeat;
-    min-height: 100vh;
+    min-height: 150vh;
+    width: 100%;
 }
 
 .blog_main h1 {
@@ -134,4 +135,75 @@ body{
     text-decoration: none;
     padding-left: 20px;
     padding-bottom: 30px;
+}
+
+.blog_guides{
+    margin-top: 45px;
+    color: #fff;
+    display:absolute;
+    cursor: pointer;
+}
+
+.blog_guides h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.guide_sub {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+}
+
+.guide_card {
+    background: rgba(10, 25, 47, 0.9);
+    border: 1px solid rgba(255,255,255,0.02);
+    border-radius: 12px;
+    padding: 18px 20px 20px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.guide_card .tag {
+    display: inline-block;
+    background: rgba(0,168,232,0.18);
+    color: #00A8E8;
+    padding: 3px 12px;
+    border-radius: 999px;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.guide_card h3 {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+.guide_card p {
+    font-size: 13px;
+    line-height: 1.45;
+    margin-bottom: 10px;
+    color: rgba(255,255,255,0.85);
+}
+
+.guide_card a {
+    color: #00A8E8;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.guide_grid{
+    position: absolute;
+}
+
+.right_side_card{
+    position: absolute;
+    left: 245%;
+    bottom: 0.5%;
 }
