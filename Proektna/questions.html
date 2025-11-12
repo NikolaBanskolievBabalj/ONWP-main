@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="gallery.css">
-    <script defer src="gallery.js"></script>
+    <link rel="stylesheet" href="questions.css">
     <title>Travel around the globe</title>
+    <script defer src="questionns.js"></script>
 </head>
 <body>
     <div class="header">
@@ -16,40 +16,37 @@
             <li><a href="questions.html"class="link1">QUESTIONS</a></li>
         </ul>
     </div>
-
     <div class="main">
-        <div class="slideshow_container">
-            <img src="sliki/9db064b010e3780023ce12f2b143847c-AdobeStock_141426708.jpeg" alt="Cities" id="galleryImg">
+        <h1 class="h2">Write about your experience on our page</h1>
+        <div class="info_collector_form">
+            <form action="#" method="get">
+                <h2>Enter your account credentials</h2>
+                <label for="email" id="usermail">Email:</label>
+                <input type="text" id="email">
+                <label for="username">User name:</label>
+                <input type="text" id="username">
+                <label for="country">Country:</label>
+                <select name="country" id="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                </select>
+                <label for="city">City:</label>
+                <select name="city" id="city">
+                    <option value="" disabled selected>Select your city</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
         </div>
 
-        <div class="photos_by_tourists">
-                <button id="prevBtn" class="btn1">⟨</button>
-                <img src="sliki2/01thing-to-do-berlin-top-bmwg-videoSixteenByNine3000.jpg" alt="OvojAlt " id="Imgs">
-                <button id="nextBtn" class="btn2">⟩</button>
+        <div class="comment_section">
+            <h4>Comments</h4>
+            <div id="commentList"></div>
+            <div class="comment_input">
+                <input type="text" id="commentText" placeholder="Write a comment..." />
+                <button id="postComment">Post</button>
             </div>
-
-            <div class="like_section">
-                <div>
-                    <h3 id="imgTitle">Tourist photo</h3>
-                    <p id="imgDesc"> Description</p>
-                </div>
-                <div class="likes">
-                    <button id="likeBtn">❤️ Like</button>
-                    <span id="likeCount">0</span>
-                </div>
-            </div>
-
-            <div class="comment_section">
-                <h4>Comments</h4>
-                <div id="commentList"></div>
-
-                <div class="comment_input">
-                    <input type="text" id="commentText" placeholder="Write a comment..." />
-                    <button id="postComment">Post</button>
-                </div>
-            </div>
-
+        </div>
     </div>
+
 
 <footer class="site_footer">
   <div class="footer_inner">
@@ -76,6 +73,8 @@
     <button id="toTop" class="to_top" type="button">↑ Back to top</button>
   </div>
 </footer>
+
+
 
 </body>
 </html>

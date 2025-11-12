@@ -7,7 +7,7 @@ body{
 .header{
     background-color: #0A192F;
     width: 240px;
-    height: 196.2vh;
+    height: 130.1vh;
     margin: 0px;
     position: absolute;
     padding-top: 70px;
@@ -40,111 +40,72 @@ body{
     padding-left: 8px;
 }
 
-.slideshow_container{
-    width: 800px;
-    height: 500px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
-    margin-bottom: 60px;
-}
-
-.slideshow_container img{
-    width: 800px;
-    height: 500px;
-    object-fit: cover;
-    transition: opacity 0.9s ease-in-out;
-}
-
 .main{
     margin-left: 240px;
-    padding-top: 80px;
     background: linear-gradient(135deg, rgba(10,25,47,0.9), rgba(0,168,232,0.3)),
                 url("photo-1467269204594-9661b134dd2b.jpg") center/cover no-repeat;
-    height: 179vh;
+    height: 121.5vh;
 }
 
-.photos_by_tourists{
-    width: 800px;
-    height: 500px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 15px 15px 0px 0px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
-
-}
-.photos_by_tourists img{
-    width: 800px;
-    height: 500px;
-    object-fit: cover;
+.h2{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: #00A8E8;
+    position: relative;
+    right: 5%;
+    top: 7%;
 }
 
-.btn1{
-    position: absolute;
-    transform: translateY(-50%);
-    background: rgba(0,0,0,0.45);
-    border: none;
-    color: #fff;
-    font-size: 2rem;
-    padding: 8px 16px;
-    cursor: pointer;
-    border-radius: 10px;
-    top: 100%
+.info_collector_form{
+    margin-left: 240px;
+    max-width: 420px;
+    background:#0A192F;
+    color:#fff;
+    border-radius:12px;
+    box-shadow:0 10px 24px rgba(0,0,0,0.35);
+    padding: 20px 20px;
+    position: relative;
+    left: 15%;
+    top:13%;
+}   
+
+.info_collector_form label{
+    display: block;
+    margin-top: 20px;
 }
 
-.btn2{
-    position: absolute;
-    transform: translateY(-50%);
-    background: rgba(0,0,0,0.45);
-    border: none;
-    color: #fff;
-    font-size: 2rem;
-    padding: 8px 16px;
-    cursor: pointer;
-    border-radius: 10px;
-    top: 100%;
-    right: 22%;
+.info_collector_form button{
+  margin-top:12px;
+  background:#00A8E8;
+  border:none;
+  color:#fff;
+  padding:10px 14px;
+  border-radius:8px;
+  font-weight:700;
+  cursor:pointer;
+  display: block;
+  margin-top: 25px;
 }
 
-.like_section {
-  display: flex;
-  position: absolute;
-  padding: 14px 20px 16px;
-  background: #0A192F;
-  color: #fff;
-  width: 760px;
-  left: 35%;
-  border-radius: 0px 0px 15px 15px;
+.info_collector_form select{
+  width:100%;
+  padding:10px 12px;
+  background:#0f223d;
+  color:#fff;
+  border:1px solid rgba(255,255,255,.15);
+  border-radius:8px;
+  outline:none;
 }
 
-.like_section h3 {
-  margin: 0;
-  font-size: 16px;
-}
-
-.like_section p {
-  margin: 3px 0 0;
-  font-size: 12px;
-  opacity: 0.7;
-}
-.likes {
-  gap: 8px;
-}
-
-#likeBtn {
-  background: #00A8E8;
-  border: none;
-  color: #fff;
-  padding: 6px 12px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: 600;
-  margin-left: 50px;
-}
-
-#likeCount {
-  font-weight: 600;
+.info_collector_form input{
+    width:94%;
+    padding:10px 12px;
+    background:#0f223d;
+    color:#fff;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:8px;
+    outline:none;
 }
 
 .comment_section {
@@ -156,7 +117,8 @@ body{
   margin-top: 75px;
   width: 760px;
   position: absolute;
-  left: 35%;
+  left: 31%;
+  bottom: -4%;
 }
 
 .comment_section h4 {

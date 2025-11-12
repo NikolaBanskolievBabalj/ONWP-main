@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel around the globe</title>
     <link rel="stylesheet" href="blog.css">
+    <script defer src="blog.js"></script>
 </head>
 <body>
     <div class="header">
@@ -12,7 +13,7 @@
             <li><a href="index.html" class="link1">HOME</a></li>
             <li><a href="gallery.html" class="link1">GALLERY</a></li>
             <li><a href="blog.html"class="link3">BLOG</a></li>
-            <li><a href="#"class="link1">QUESTIONS</a></li>
+            <li><a href="questions.html"class="link1">QUESTIONS</a></li>
         </ul>
     </div>
     <div class="main">
@@ -25,22 +26,22 @@
                 <article class="blog_card">
                     <img src="sliki/china-neon-city-skyscraper-lights-w2l9khmjvdbzdaq4.jpg" alt="Shanghai">
                     <h2>Shanghai — China’s most dynamic metropolis, where futuristic skyscrapers rise beside colonial-era architecture.</h2>
-                    <a href="link3">Read more →</a>
+                    <a href="https://www.tripadvisor.com/Tourism-g303764-Shanghai_Region-Vacations.html">Read more →</a>
                 </article>
                 <article class="blog_card1">
                     <img src="sliki/best-time-of-year-to-visit-prague-prague-castle-scaled.jpeg" alt="Prague">
                     <h2>The fairytale capital of the Czech Republic, famous for its cobblestone streets, Gothic spires.</h2>
-                    <a href="link3">Read more →</a>
+                    <a href="https://www.tripadvisor.com/Tourism-g274707-Prague_Bohemia-Vacations.html">Read more →</a>
                 </article>
                 <article class="blog_card">
                     <img src="sliki/GettyImages-1560098090.jpg" alt="Paris">
                     <h2>With art in its soul and romance in its air, Paris enchants visitors at every corner.</h2>
-                    <a href="link3">Read more →</a>
+                    <a href="https://www.tripadvisor.com/Tourism-g187147-Paris_Ile_de_France-Vacations.html">Read more →</a>
                 </article>
                 <article class="blog_card">
                     <img src="sliki/0624POM-A-3-scaled.jpg" alt="Prague">
                     <h2>Sunlight spills across Gaudí’s curves and Mediterranean streets alive with music.</h2>
-                    <a href="link3">Read more →</a>
+                    <a href="https://www.tripadvisor.com/Tourism-g187497-Barcelona_Catalonia-Vacations.html">Read more →</a>
                 </article>
             </section>
             <section class="blog_list">
@@ -90,5 +91,32 @@
             </section>
         </div>
     </div>
+
+<footer class="site_footer">
+  <div class="footer_inner">
+    <div class="footer_brand">
+      <h3>CityReviews</h3>
+      <p>Guides • Galleries • Blog</p>
+    </div>
+
+    <div class="footer_social">
+      <a href="#" aria-label="Instagram" title="Instagram">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>
+      </a>
+      <a href="#" aria-label="Twitter" title="Twitter">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 4l7.2 8.4L4.8 20H7l6.1-6.9L18.7 20H20l-7-8 6.4-8H17l-5.6 6.4L6.2 4H4z" fill="currentColor"/></svg>
+      </a>
+      <a href="#" aria-label="YouTube" title="YouTube">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="12" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M10 9.5v5l5-2.5-5-2.5z" fill="currentColor"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer_bottom">
+    <span>© <span id="year"></span> CityReviews. All rights reserved.</span>
+    <button id="toTop" class="to_top" type="button">↑ Back to top</button>
+  </div>
+</footer>
+
 </body>
 </html>

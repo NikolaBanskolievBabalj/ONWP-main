@@ -7,4 +7,8 @@ function goToBlog(e){
     } else{
         alert("Please enter username and password!");
     }
-}   
+}  
+
+document.getElementById('toTop').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
