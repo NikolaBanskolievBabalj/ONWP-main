@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="treta.css">
+    <script defer src="treta.js"></script>
+</head>
+<body>
+    <h2>Personal Details</h2>
+    <form action="#" id="user-form">
+        <label for="fname" id="fname">Name:
+            <input type="text" id="fname-input">
+            <span id="errUserName" class="error"></span>
+        </label>       
+        <label for="surname">Surname:
+            <input type="text" id="surname-input">
+            <span id="errSurName" class="error"></span>
+        </label>      
+        <label for="password" id="password">Password:
+            <input type="password" id="user-password">
+            <span id="errPass" class="error"></span>
+        </label>
+        <label for="date" class="date-of-birth">Date of birth:
+            <input type="date" id="date-of-user">
+            <span id="errDob" class="error"></span>
+        </label>
+
+        <label for="hobbies" id="user-hobbies" class="hobi">Select your hobbies<br>
+            <select multiple id="hobbies">
+                <option value="">Sleeping</option>
+                <option value="">Gaming</option>
+                <option value="">Relaxing</option>
+                <option value="">Caffeinating</option>
+                <option value="">Drinking</option>
+                <option value="">Not studying</option>
+            </select>
+            <span id="errHobbies" class="error"></span>
+        </label>
+
+        <button type="submit">Submit My Info</button>
+    </form>
+
+
+    <dialog id="dialogBox">
+        <h3>User Information</h3>
+        <p id="dialogText"></p>
+        <button onclick="document.getElementById('dialogBox').close()">Close</button>
+    </dialog>
+
+
+</body>
+</html>

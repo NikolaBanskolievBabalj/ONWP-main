@@ -86,7 +86,7 @@ function renderComments(){
 function showPhoto(index){
     const photo = photos[index];
     imgElement.src = photo.src;
-    likeCount.textContent = photos.likes;
+    likeCount.textContent = photos.like;
     if (titleElement) titleElement.textContent = photo.title;
     if (discElement) discElement.textContent = photo.desc;
     renderComments();

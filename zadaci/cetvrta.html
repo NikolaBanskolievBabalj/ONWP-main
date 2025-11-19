@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cetvrta.css">
+    <script defer src="cetvrta.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Personal Details</h1>
+    <form action="#" id="form">
+        <label for="fname" id="fname">Name:
+            <input type="text" id="username">
+            <span id="errorUserName" class="error"></span>
+        </label>
+        <label for="surname" id="sname">Surname:
+            <input type="text" id="surname">
+            <span id="errorSurName" class="error"></span>
+        </label>
+        <label for="password" id="pass">Password:
+            <input type="password" id="password">
+            <span id="errorPassword" class="error"></span>
+        </label>
+        <label for="surname" id="date">Date of birth:
+            <input type="date" id="dob">
+            <span id="errorDate" class="error"></span>
+        </label>
+        <label for="hobbies" id="hobbies" class="hobb">
+            <select name="hobbies" id="userHobbies">
+                <option value="">Sleeping</option>
+                <option value="">Gaming</option>
+                <option value="">Reading</option>
+                <option value="">Caffeinating</option>
+                <option value="">Drinking</option>
+                <option value="">Not studying</option>
+            </select>
+            <span id="errorHobbies" class="error"></span>
+        </label>
+
+        <button type="submit">Submit my info</button>
+
+    </form>
+
+    <dialog id="dialogBox">
+        <p id="DialogText"></p>
+        <button onclick="document.getElementById('dialogBox').close()">Close</button>
+    </dialog>
+
+
+</body>
+</html>
