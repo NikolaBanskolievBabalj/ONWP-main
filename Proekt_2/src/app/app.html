@@ -1,0 +1,59 @@
+<div class="app">
+    <div class="add-task">
+
+      <header class="app-header">
+        <h1>To-Do-List-App</h1>
+      </header>
+
+      <section class="type-task">
+        <input type="text" class="task-input" placeholder="Add your task..." 
+        [(ngModel)] = "taskText"
+        (keyup.enter)="addTask()"/>
+      </section>
+
+      <section class="select-priorety">
+        <h3 class="set-priority">Select priority of you task</h3>
+        <div class="priority">
+          <label class="priority-option low">
+            <input type="radio" name="priority" class="low" value="low" [(ngModel)]="selectedPriority">
+            <span>Low Priority</span>
+          </label>
+          <label class="priority-option medium">
+            <input type="radio" name="priority" class="medium" value="medium" [(ngModel)]="selectedPriority">
+            <span>Medium Priority</span>
+          </label>
+          <label class="priority-option high">
+            <input type="radio" name="priority" class="high" value="high" [(ngModel)]="selectedPriority">
+            <span>High Priority</span>
+          </label>
+        </div>
+      </section>
+
+      <div class="add-task-button-holder">
+        <button class="add-task-btn" 
+        [disabled]="taskText.trim().length === 0"
+        (click)="addTask()"
+        >Add Task</button>
+      </div>
+    </div>
+</div>
+
+<div class="line"></div>
+<div class="results">
+  <h1 class="task-counter">Your Tasks ({{tasks.length}})</h1>
+  <ul class="task-list">
+    <li *ngFor="let task of tasks; let i = index" class="task-item" [class.completed]="task.completed">
+        <label class="task-row-left">
+        <input type="checkbox" [(ngModel)]="task.completed" />
+        <span class="task-text">{{ task.text }}</span>
+    </label>
+    <div class="right-side">
+      <span class="priority-badge" [ngClass]="'p-' + task.priority">
+      {{ getPriority(task.priority) }}
+      </span>
+
+      <button class="delete-btn" type="button" (click)="deleteTask(i)">✕</button>
+    </div>
+    </li>
+  </ul>
+</div>

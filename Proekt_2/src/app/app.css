@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priority{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-task-button-holder{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-task-btn{
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+}
+
+.task-input{
+    width: 600px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.set-priority{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.add-task{
+    border: 2px;
+    border-color: rgb(162, 162, 162);
+    border-style: solid;
+    padding: 50px 100px 50px 100px;
+    background-color: rgb(240, 240, 240);
+}
+
+.line{
+    margin-top: 40px;
+    margin-left: 0px;
+    border: 2px;
+    border-color: rgb(162, 162, 162);
+    border-style: solid; 
+    border-top: 2px;
+    width: 823px;
+    position: relative;
+    left: 502px;
+}
+
+.add-task-btn:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.task-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-list li{
+    width: 600px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(162, 162, 162);
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-row-left{
+  display: flex;
+  align-items: center ;
+  padding-top: 20px;
+}
+
+.completed .task-text{
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-text{
+  font-size: 16px;
+}
+
+.right-side{
+  display: flex;
+  gap: 12px;
+}
+
+.priority-badge{
+  font-weight: 700;
+}
+
+.p-high{ color: red; }
+.p-medium{ color: #caa300; } 
+.p-low{ color: green; }
+
+.delete-btn{
+  border: 1px solid rgb(162, 162, 162);
+  background: white;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.delete-btn:hover{
+  opacity: 0.8;
+}
+
+
